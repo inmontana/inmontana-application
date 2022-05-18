@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css?family=Numans');
+
+html,body{
+background-image: url('./bg.jpg');
+background-size: cover;
+background-repeat: repeat-y;
+height: 100%;
+font-family: 'Numans', sans-serif;
+}
+
+.containerr{
+height: 100%;
+align-content: center;
+}
+
+.logo-img {
+    height: 25%;
+    width: 25%;
+}
+.card{
+height: 370px;
+margin-top: auto;
+margin-bottom: auto;
+width: 400px;
+background-color: rgba(247, 241, 241, 0.596) !important;
+}
+
+.social_icon span{
+font-size: 60px;
+margin-left: 10px;
+color: #007688;
+}
+
+.social_icon span:hover{
+color: white;
+cursor: pointer;
+}
+
+.card-header h3{
+color: white;
+}
+
+.social_icon{
+position: absolute;
+right: 20px;
+top: -45px;
+}
+
+.input-group-prepend span{
+width: 50px;
+background-color: #007688;
+color: black;
+border:0 !important;
+}
+
+input:focus{
+outline: 0 0 0 0  !important;
+box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+color: white;
+}
+
+.remember input
+{
+width: 20px;
+height: 20px;
+margin-left: 15px;
+margin-right: 5px;
+}
+
+.login_btn{
+color: white;
+background-color: #007688;
+width: 100px;
+}
+
+.login_btn:hover{
+color: #007688;
+background-color: white;
+}
+
+.links{
+color: white;
+}
+
+.links a{
+margin-left: 4px;
+}
